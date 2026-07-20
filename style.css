@@ -8,13 +8,13 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 /* Header */
 header {
-    background: #4CAF50;
+    background-color: #4CAF50;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -29,7 +29,7 @@ header p {
     margin-top: 10px;
 }
 
-/* Sections */
+/* All Sections */
 section {
     padding: 50px 20px;
     text-align: center;
@@ -41,14 +41,14 @@ section h2 {
     font-size: 32px;
 }
 
-/* About */
+/* About Section */
 .about img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 20px 0;
     border: 5px solid #4CAF50;
+    margin: 20px 0;
 }
 
 .about p {
@@ -64,48 +64,74 @@ section h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    margin-top: 20px;
 }
 
 .skill {
-    background: #4CAF50;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 25px;
     border-radius: 8px;
     font-weight: bold;
 }
 
-/* Projects */
-.project {
-    background: white;
-    width: 80%;
-    margin: 20px auto;
+/* Education */
+.education {
+    background-color: #ffffff;
+}
+
+.edu-box {
+    width: 70%;
+    margin: auto;
+    background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.project h3 {
+/* Projects */
+.projects {
+    background-color: #f4f4f4;
+}
+
+.project-box {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-box h3 {
     color: #4CAF50;
     margin-bottom: 10px;
 }
 
 /* Resume */
+.resume {
+    background-color: white;
+}
+
 .resume a {
     display: inline-block;
-    background: #4CAF50;
+    margin-top: 20px;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 15px;
+    transition: 0.3s;
 }
 
 .resume a:hover {
-    background: #388E3C;
+    background-color: #388E3C;
 }
 
 /* Contact */
+.contact {
+    background-color: #f4f4f4;
+}
+
 .contact p {
     margin: 10px 0;
     font-size: 18px;
@@ -113,7 +139,7 @@ section h2 {
 
 /* Footer */
 footer {
-    background: #333;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
